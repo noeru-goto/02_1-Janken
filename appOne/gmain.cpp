@@ -20,9 +20,9 @@ struct DATA {
 };
 
 void loadImages(struct DATA* d) {
-    d->player.img[0] = loadImage("assets\\playerGu.pug");
-    d->player.img[1] = loadImage("assets\\playerChoki.pug");
-    d->player.img[2] = loadImage("assets\\playerPa.pug");
+    d->player.img[0] = loadImage("assets\\playerGu.png");
+    d->player.img[1] = loadImage("assets\\playerChoki.png");
+    d->player.img[2] = loadImage("assets\\playerPa.png");
 }
 void init(struct DATA* d) {
     d->player.hand = d->GU;
